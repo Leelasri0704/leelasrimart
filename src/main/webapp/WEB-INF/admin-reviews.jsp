@@ -138,9 +138,12 @@ th {
 
 </table>
 
-<a href="../admin.jsp" class="back">
+
     Back to Dashboard
+<a 
+    href="${pageContext.request.contextPath}/admin.jsp" class="back">
 </a>
+
 
 </body>
 </html>
